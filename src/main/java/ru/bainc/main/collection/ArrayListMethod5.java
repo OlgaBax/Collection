@@ -17,11 +17,11 @@ public class ArrayListMethod5 {
         arrayList2.add("Irina");
         arrayList2.add("Igor");
 
-//        arrayList1.removeAll(arrayList2); // из лист1 удаляются все элементы лист2
-//        System.out.println(arrayList1);
+        arrayList1.removeAll(arrayList2); // из лист1 удаляются все элементы лист2
+        System.out.println(arrayList1);
 
-//        arrayList1.retainAll(arrayList2);
-//        System.out.println(arrayList1);
+        arrayList1.retainAll(arrayList2);
+        System.out.println(arrayList1);
 
         boolean result = arrayList1.containsAll(arrayList2);
         System.out.println(result);

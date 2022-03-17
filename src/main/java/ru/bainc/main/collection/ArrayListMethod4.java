@@ -12,8 +12,8 @@ public class ArrayListMethod4 { // метод Arrays.asList(array)
         StringBuilder[]array = {sb1,sb2,sb3,sb4};
         List <StringBuilder> list = Arrays.asList(array);// класс Arrays, метод asList получаем лист из массива.
         System.out.println(list);
-//        array[0].append("!!!");
-//        System.out.println(list);
+        array[0].append("!!!");
+        System.out.println(list);
         array[0] = new StringBuilder("F");
         System.out.println(list);
     }
